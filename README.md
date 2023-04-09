@@ -178,7 +178,7 @@ Kali Linux
     -   Check for ACK or PSH flag set in a TCP packet  
         `tcpdump -A -n 'tcp[13] = 24' -r passwordz.pcap`
 
--   IPTables 
+-   IPtables 
 
     -   Deny traffic to ports except for Local Loopback
 
